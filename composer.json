@@ -1,0 +1,22 @@
+{
+  "name": "crafterr/eventbasket",
+  "description": "My composer library",
+  "type": "library",
+  "require": {
+    "symfony/var-dumper": "^3.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "crafterr",
+      "email": "adam@crafter.net.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Crafter\\EventBasket\\": "src/"
+    }
+
+  },
+  "minimum-stability": "stable"
+}
